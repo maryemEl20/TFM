@@ -1,0 +1,70 @@
+.partenaire{
+  background-image: url('../../../img/illustrations/iimageBack.png') ;
+  background-repeat: no-repeat;
+
+}
+
+.content-back{
+    max-width: 800px;
+    margin: 0 auto;
+
+
+}
+.title-partenaire{
+  text-align: center;
+  font-size: 50px;
+  box-shadow: none;
+  padding-top: 70px;
+  font-family: zabal demo extrabold;
+}
+
+.title-partenaire-page{
+  text-align: center;
+  font-size: 40px;
+  box-shadow: none;
+  padding-top: 70px;
+  font-family: zabal demo extrabold;
+}
+.p-partenaire{
+  text-align: center;
+  font-size: 15px;
+  padding-top:14px;
+  font-family: zabal demo extrabold;
+}
+.partenImg{
+  pointer-events: none;
+  display: block;
+  padding-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.Partenaire{
+  width:120px;
+  margin-top: 10px;
+}
+.Partenaire1{
+  width:80px;
+}
+
+@media (max-width: 992px) {
+  .title-partenaire{
+    font-size:40px;
+    padding-left:18px ;
+    padding-top: 70px;
+    font-family: zabal demo extrabold;
+  }
+  .partenImg{
+    width: 100%;
+  }
+  
+  .p-partenaire{
+    text-align: center;
+    font-size: 15px;
+    padding-top:14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: zabal demo extrabold;
+  }
+}

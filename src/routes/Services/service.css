@@ -1,0 +1,114 @@
+.content-service{
+  
+  margin: 0 auto;
+  padding: 0rem 12rem;
+}
+.show-content{
+  margin: 0 auto;
+  padding: 1rem 5rem;
+}
+.show-content2{
+  margin: 0 auto;
+  padding: 10px 5rem;
+}
+
+.title-service1{
+  font-weight: 500;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.title-service{
+  font-weight: 500;
+  padding-top: 10px;
+
+}
+.ul-service1{
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.ul-service{
+  margin-top: 10px;
+
+}
+.ul-service li{
+  margin-top: 5px;
+  font-size: 16px;
+
+}
+.btn-show{
+  color:#000000;
+  text-transform: none;
+  cursor: pointer;
+
+}
+.btn-show-item1{
+  color:#000000;
+  text-transform: none;
+  padding: 0px 2rem;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.btn-show-item{
+  color:#000000;
+  text-transform: none;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.p-ul-li{
+  color:#000000;
+  margin-top: 8px;
+  text-transform: none;
+  cursor: pointer;
+}
+.p-ul-li:hover{
+  color: #1FCD75;
+}
+
+
+.btn-show:hover{
+  color: #1FCD75;
+}
+.btn-show-item1:hover{
+  color: #1FCD75;
+}
+.btn-show-item:hover{
+  color: #1FCD75;
+}
+
+.p-service{
+padding: 2rem 0px;
+}
+.Formation-back{
+  background: #F5F5F5;
+  margin-top: 100px;
+  width:  100%; /*or 70%, or what you want*/
+  height: 700px; /*or 70%, or what you want*/
+}
+
+.Footer-service{
+  background: rgb(2,86,154);
+  background: linear-gradient(135deg, rgba(2,86,154,1) 0%, rgba(53,171,92,1) 100%);
+  height: 500px;
+  margin-top: 100px;
+}
+
+@media (max-width: 992px) {
+  .Footer-service{
+    height: 880px;
+
+  }
+  .p-ul-li {
+    font-size: 15px;
+  }
+  .title-service {
+    font-size: 22px;
+    font-family: zabal demo extrabold;
+  }
+ 
+}
+
+
+

@@ -1,0 +1,17 @@
+.img-blog{
+width: 60%;
+}
+
+.title-blog{
+  color: #1F0B39;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-family: zabal demo extrabold;
+}
+
+.p-blog{
+  color: #545D7A;
+  line-height: 25px;
+  font-size: 20px;
+  margin-top: 15px;
+}

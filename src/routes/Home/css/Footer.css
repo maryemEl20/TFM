@@ -1,0 +1,62 @@
+.Footer{
+  margin-top: 520px;
+  background: rgb(2,86,154);
+  background: linear-gradient(135deg, rgba(2,86,154,1) 0%, rgba(53,171,92,1) 100%);
+ 
+}
+
+.footer-input{
+  margin-top: 15px;
+}
+.form {
+  display:flex;
+  flex-direction:row;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #2C4B90;
+  opacity: 1; /* Firefox */
+}
+
+.input{
+  height: 40px;
+  border-radius: 5%;
+  color: #2C4B90;
+  background: rgba(153, 185, 255, 0.5);
+  border: none;
+}
+
+
+.btn {
+  /* Just a little styling to make it pretty */
+  border: none;
+  background:#2D5DFF;
+  color:white;
+  width: 50%;
+}
+.HashLink-footer{
+ color:#fff;
+ font-size:14px;
+ margin-top:15px;
+  font-weight:100;
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .Footer{
+    height: 1000px;
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+   font-size: 11px;
+  }
+  
+  
+}
+
+@media (min-width: 1500px) {
+  .Footer {
+    margin-top: 200px;
+    background: rgb(2,86,154);
+    background: linear-gradient(135deg, rgba(2,86,154,1) 0%, rgba(53,171,92,1) 100%);
+    height: 500px;
+  }
+}

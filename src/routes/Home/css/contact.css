@@ -1,0 +1,183 @@
+.contact{
+  background: #f3f3f3;
+  width: 100%;
+}
+.backImg{
+  background-image: url('../../../img/methodes/backContact.svg');
+  width:  100%; 
+  height:100%; 
+}
+
+/**/
+.form-rendezVous{
+  display: flex;
+}
+.map{
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.header-contact{
+  background-image: url('../../../img/backround1.svg');
+}
+
+.header-Rendez{
+  background-image: url('../../../img/backround.svg');
+  width:  100%; /*or 70%, or what you want*/
+  height: 100%; /*or 70%, or what you want*/
+}
+
+.background-contact{
+  background-image: url('../../../img/backContact.svg');
+  background-repeat: no-repeat;
+  width:  10%; /*or 70%, or what you want*/
+}
+.context-contact{
+  margin: 0 auto;
+  padding: 5rem 6rem;
+
+}
+.title-contact{
+  font-size: 25px;
+  padding-left: 30%;
+}
+
+.input-row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.input-row .input-group{
+  flex-basis: 45%;
+}
+.input-group-contact{
+  flex-basis: 90%;
+}
+input{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgb(190, 190, 190);
+  outline: none;
+  padding-bottom: 1px;
+}
+
+label{
+  margin-bottom:10px;
+  display: block;
+  font-size: 15px;
+  color: #545D7A;
+}
+.date{
+  background: #000928;
+  width: 60%;
+  font-size: 15px;
+  height: 40px;
+  margin-top: 15px;
+  border: none;
+  color: #fff;
+  box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+  cursor: pointer;
+  padding: 0px 10px;
+  
+}
+::placeholder {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+.btnSend{
+  background: #262626;
+  width: 90%;
+  margin-top: 10px;
+  font-size: 18px;
+  height:40px;
+  border: none;
+  color: #fff;
+  box-shadow: 0px 5px 15px 0px rgba(72, 72, 73, 0.3);
+  cursor: pointer;
+
+}
+.adresse{
+  color: #656b80;
+  padding-bottom: '-20px';
+  font-size: 12px;
+  
+  font-weight: 200;
+}
+.adresse-0{
+  color: #656b80;
+  padding-bottom: '-20px';
+  font-size: 12px;
+  margin-top: 60px;
+  font-weight: 200;
+}
+
+/**/
+.map{
+  width: 100%;
+  height: 100%;
+  border: none;
+
+}
+/**/
+.custom-input {
+  border-radius: 15px;
+  border: 1px #0c8af8 solid;
+  padding: 4px 12px;
+  background-color: white;
+  height: 22px;
+  box-shadow: 0 0 2px #0074d9;
+}
+
+.custom-input:focus {
+  outline: none;
+  border: 1px solid #0c8af8;
+  box-shadow: 0 0 10px 2px #0074d9;
+}
+
+.content-rendez{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 0px;
+  
+  margin-top:100px;
+
+}
+/**/
+.text-content{
+  padding: 16rem 0px;
+  text-align: center;
+  color: #10182F;
+  font-family: zabal demo extrabold;
+  font-size: 30px;
+}
+
+@media (max-width: 580px) {
+  .input-row{
+    display: grid;  
+  }
+
+  .title-contact{
+    font-size: 20px;
+    padding-left: 30%;
+  }
+  .text-content{
+    padding: 16rem 50px;
+    text-align: center;
+    color: #10182F;
+    font-family: zabal demo extrabold;
+    font-size: 30px;
+  }
+  
+}
+
+@media (max-width: 1200px) {
+  .context-contact{
+    margin: 0 auto;
+    padding: 0rem 6rem;
+  
+  }
+
+}
